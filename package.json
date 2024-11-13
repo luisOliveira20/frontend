@@ -1,14 +1,30 @@
 {
   "name": "stadium-app",
   "version": "0.1.0",
+  "proxy": "http://127.0.0.1:5000/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "add": "^2.0.6",
+    "antd": "^4.23.5",
+    "bootstrap": "^5.2.2",
+    "classnames": "^2.3.2",
+    "query-string": "^7.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.37.0",
+    "react-push-notification": "^1.5.4",
+    "react-qr-code": "^2.0.15",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "react-use-storage": "^0.5.1",
+    "react-webcam": "^7.2.0",
+    "reactstrap": "^9.1.4",
+    "sass": "^1.55.0",
+    "socket.io-client": "^4.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-dom/extend/expect"
+  ]
 }

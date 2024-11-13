@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa; // Cor de fundo suave
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; // Espaçamento entre o logo e o título
+  }
+  
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .counts {
+    font-size: 1.1rem;
+    color: #28a745; // Cor verde para destacar a contagem de usuários
+    font-weight: bold;
+  }
+  
+  .navBar {
+    display: flex;
+    gap: 1rem; // Espaçamento entre os links
+    background-color: transparent; // Sem fundo
+    border: none; // Remoção de borda
+  }
+  
+  .link {
+    color: #007bff; // Cor azul para os links
+    text-decoration: none;
+    font-weight: 500;
+    &:hover {
+      color: #0056b3; // Cor mais escura ao passar o mouse
+      text-decoration: underline;
+    }
+  }
+  
